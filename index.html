@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Htoo Aung Hlaing Win - Digital Technology Student</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">HAHW_</a>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+            <button class="theme-toggle" id="mobile-theme-toggle" aria-label="Toggle dark mode" style="display: none;">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 1. HOME PAGE -->
+        <section id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text fade-in">
+                        <h1><!-- Animated heading --></h1>
+                        <p>Welcome to my space on the web!
+                            I love creating clean, modern websites that feel natural and enjoyable to explore.
+                            Every project is a chance to learn, grow, and turn ideas into something real..</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="cta-button"><span>Contact Me</span></a>
+                        </div>
+                    </div>
+                    <div class="hero-photo fade-in">
+                        <img src="./profile.jpg" alt="A profile photo of Htoo Aung Hlaing Win"
+                            onerror="this.onerror=null;this.src='https://placehold.co/300x300/121212/FFFFFF?text=HAHW';">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT PAGE -->
+        <section id="about" class="fade-in">
+            <div class="container">
+                <h2 class="fade-in">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-story fade-in">
+                        <h3>My Story & Ambitions</h3>
+                        <p>My name is Htoo Aung Hlaing Win. I was born in Myanmar and I’m currently living in Bangkok,
+                            Thailand, where I study Digital Technology Innovation at Kasem Bundit University. My journey
+                            into web development started from a simple curiosity about how websites are built. What
+                            began as a small interest soon became a deep passion for creating digital experiences that
+                            connect design and functionality. Living and studying abroad has also helped me grow more
+                            independent, disciplined, and open-minded toward new challenges.
+                        </p>
+                        <p>I am passionate about front-end development and the art of bringing ideas to life through
+                            design and code. I enjoy creating websites that are both visually appealing and
+                            user-friendly, with a focus on clean structure and smooth interaction. I see web development
+                            as more than just coding — it’s a way to express creativity and solve real-world problems.
+                            My goal is to build a professional career as a Front-End Developer, where I can continue
+                            learning, improving, and contributing to meaningful digital projects.</p>
+                    </div>
+                    <div class="skills-section fade-in">
+                        <h3>My Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item"><i class="fab fa-html5"></i> HTML</div>
+                            <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS</div>
+                            <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                            <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                            <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SERVICES PAGE -->
+        <section id="services" class="fade-in">
+            <div class="container">
+                <h2 class="fade-in">What I Can Do For You</h2>
+                <div class="services-grid">
+                    <div class="service-card fade-in">
+                        <div class="service-icon-container">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Creating modern, mobile-first websites that look great and function perfectly on any device,
+                            from desktops to smartphones.</p>
+                    </div>
+                    <div class="service-card fade-in">
+                        <div class="service-icon-container">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Building clean, efficient, and maintainable websites from the ground up using HTML, CSS, and
+                            JavaScript.</p>
+                    </div>
+                    <div class="service-card fade-in">
+                        <div class="service-icon-container">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h3>UI Implementation</h3>
+                        <p>Transforming static designs and prototypes into interactive and pixel-perfect web
+                            experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. EXPERIENCE & EDUCATION -->
+        <section id="experience" class="fade-in">
+            <div class="container">
+                <h2 class="fade-in">Experience & Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item fade-in">
+                        <div class="date">Present</div>
+                        <h3>Seeking Opportunities</h3>
+                        <p>I am actively seeking internship and freelance opportunities to apply my skills in a
+                            professional environment. My goal is to contribute to meaningful projects while gaining
+                            hands-on experience and learning from experienced developers.</p>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="date">2023 - 2027 (Expected)</div>
+                        <h3>Bachelor of Digital Technology</h3>
+                        <p>Kasem Bundit University, Bangkok, Thailand. My coursework has provided a strong foundation in
+                            software development, UI/UX principles, and project management.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. HOBBIES PAGE -->
+        <section id="hobbies" class="fade-in">
+            <div class="container">
+                <h2 class="fade-in">What I Do In My Free Time</h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-card fade-in">
+                        <div class="hobby-icon-container">
+                            <i class="fas fa-guitar"></i>
+                        </div>
+                        <h3>Playing Guitar</h3>
+                    </div>
+                    <div class="hobby-card fade-in">
+                        <div class="hobby-icon-container">
+                            <i class="fas fa-headphones-alt"></i>
+                        </div>
+                        <h3>Listening to Music</h3>
+                    </div>
+                    <div class="hobby-card fade-in">
+                        <div class="hobby-icon-container">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Playing Games</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. PROJECTS PAGE -->
+        <section id="projects" class="fade-in">
+            <div class="container">
+                <h2 class="fade-in">My Projects</h2>
+                <div class="project-grid">
+                    <div class="maintenance-message fade-in">
+                        <i class="fas fa-tools"></i>
+                        <p>This section is under construction.<br>I'm currently working on exciting projects to showcase
+                            here soon!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. CONTACT PAGE -->
+        <section id="contact" class="fade-in">
+            <div class="container">
+                <div class="contact-container">
+                    <h2 class="fade-in">Contact Me</h2>
+                    <p class="fade-in">I'm always open to discussing new projects, creative ideas, or opportunities.
+                        Feel free to reach out via email or the form below.</p>
+                    <a href="mailto:htooaung.edu2003@gmail.com"
+                        class="cta-button fade-in"><span>htooaung.edu2003@gmail.com</span></a>
+
+                    <form action="#" class="contact-form fade-in">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button"><span>Send Message</span></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p style="margin-top: 20px; color: var(--secondary-text);">&copy; 2025 Htoo Aung Hlaing Win. All rights
+                reserved.</p>
+        </div>
+    </footer> -->
+
+    <script src="train.js">
+
+    </script>
+</body>
+
+</html>
